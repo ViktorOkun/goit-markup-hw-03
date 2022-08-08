@@ -1,10 +1,8 @@
-/* білий колір #FFFFFF */
-/* основний колір тексту  #757575*/
-/* вторинний колір тескту  #212121 */
-/* колір логотипу #2196F3 і #000000 */
-/* синій колір #2196F3 */
-/* вториррний колфр фону #F5F4FA */
-/* фон футера #2F303A */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
 :root {
     --primary-text-color: #757575;
@@ -84,6 +82,7 @@ body {
 
 .hero {
     background-color: var(--background-color-hero);
+    text-align: center;
 }
 
 .hero-title {
