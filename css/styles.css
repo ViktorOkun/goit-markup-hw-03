@@ -49,6 +49,7 @@ h1, h2, h3, ul {
 /* Header */
 
 .logo {
+    margin-right: 93px;
     color: var(--color-logo);
     text-decoration: none;
     font-family: 'Raleway';
@@ -62,7 +63,23 @@ h1, h2, h3, ul {
     color: var(--accent-color);
 }
 
+.site-nav {
+    display: flex;
+}
+
+/* .site-nav li {
+    outline: 2px solid tomato;
+} */
+
+.site-nav .list + .list {
+    margin-left: 50px;
+}
+
 .site-nav .link {
+    display: block;
+    padding-top: 21px;
+    padding-bottom: 21px;
+
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -73,6 +90,15 @@ h1, h2, h3, ul {
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color);
+}
+
+.site-contacts {
+    display: flex;
+    margin-left: auto;
+}
+
+.site-contacts .list + .list {
+    margin-left: 50px;
 }
 
 .site-contacts .link {
@@ -91,6 +117,14 @@ h1, h2, h3, ul {
 .site-nav .link.current {
     color: var(--accent-color);
 }
+
+/* main-nav */
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
 
 /* Hero */
 
