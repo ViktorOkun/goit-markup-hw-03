@@ -34,7 +34,7 @@ h1, h2, h3, ul {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato; */
 }
 
 .link {
@@ -77,8 +77,8 @@ h1, h2, h3, ul {
 
 .site-nav .link {
     display: block;
-    padding-top: 21px;
-    padding-bottom: 21px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
     color: var(--title-text-color);
     font-weight: 500;
