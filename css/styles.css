@@ -184,9 +184,11 @@ h1, h2, h3, ul {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
+    width: 270px;
 
     margin-bottom: 10px;
 }
@@ -200,6 +202,11 @@ h1, h2, h3, ul {
 }
 
 /* Work */
+
+.work {
+    padding-top: 0;
+}
+
 
 .work-list {
     display: flex;
@@ -385,8 +392,8 @@ h1, h2, h3, ul {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-bottom: 4px;
-    margin-left: 24px;
+    /* margin-bottom: 4px;
+    margin-left: 24px; */
 
 }
 
@@ -395,8 +402,7 @@ h1, h2, h3, ul {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    margin-top: 0px;
-    margin-left: 24px;
+    margin: 0;
 }
 
 .examples-list .list {
@@ -410,6 +416,8 @@ h1, h2, h3, ul {
 .examples-card {
     border: 1px solid #EEEEEE;
     border-top: 0;
+    padding: 20px 24px;
+
 }
 
 /* end */
